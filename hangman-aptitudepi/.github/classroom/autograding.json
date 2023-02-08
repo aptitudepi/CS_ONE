@@ -1,0 +1,24 @@
+{
+  "tests": [
+    { 
+      "name": "elephant, win",
+      "setup": "javac Hangman.java",
+      "run": "java Hangman",
+      "input": "elephant\r\nr\r\ns\r\nt\r\nl\r\nn\r\ne\r\np\r\nh\r\na",
+      "output": "--------, 9 incorrect guesses left(.|\\n)*r is not in the word\\n--------, 8 incorrect guesses left(.|\\n)*s is not in the word\\n--------, 7 incorrect guesses left(.|\\n)*t is in the word\\n-------t, 7 incorrect guesses left(.|\\n)*l is in the word\\n-l-----t, 7 incorrect guesses left(.|\\n)*n is in the word\\n-l----nt, 7 incorrect guesses left(.|\\n)*e is in the word\\nele---nt, 7 incorrect guesses left(.|\\n)*p is in the word\\nelep--nt, 7 incorrect guesses left(.|\\n)*h is in the word\\neleph-nt, 7 incorrect guesses left(.|\\n)*a is in the word\\nCongratulations! You guessed elephant in 9 guesses!",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    { 
+      "name": "bobcat, lose",
+      "setup": "javac Hangman.java",
+      "run": "java Hangman",
+      "input": "bobcat\r\nr\r\ns\r\nt\r\nl\r\nn\r\ne\r\na\r\ni\r\no\r\nd\r\nf\r\nh",
+      "output": "------, 9 incorrect guesses left(.|\\n)*r is not in the word\\n------, 8 incorrect guesses left(.|\\n)*s is not in the word\\n------, 7 incorrect guesses left(.|\\n)*t is in the word\\n-----t, 7 incorrect guesses left(.|\\n)*l is not in the word\\n-----t, 6 incorrect guesses left(.|\\n)*n is not in the word\\n-----t, 5 incorrect guesses left(.|\\n)*e is not in the word\\n-----t, 4 incorrect guesses left(.|\\n)*a is in the word\\n----at, 4 incorrect guesses left(.|\\n)*i is not in the word\\n----at, 3 incorrect guesses left(.|\\n)*o is in the word\\n-o--at, 3 incorrect guesses left(.|\\n)*d is not in the word\\n-o--at, 2 incorrect guesses left(.|\\n)*f is not in the word\\n-o--at, 1 incorrect guess left(.|\\n)*h is not in the word\\nYou lost! The word was bobcat",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}

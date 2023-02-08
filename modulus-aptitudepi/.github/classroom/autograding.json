@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "3, 5",
+      "setup": "javac Modulus.java",
+      "run": "java Modulus",
+      "input": "3\r\n5",
+      "output": "odd\r\nodd\r\nsmaller",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "4, 2",
+      "setup": "javac Modulus.java",
+      "run": "java Modulus",
+      "input": "4\r\n2",
+      "output": "even\r\neven\r\ngreater",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "7, 7",
+      "setup": "javac Modulus.java",
+      "run": "java Modulus",
+      "input": "7\r\n7",
+      "output": "odd\r\nodd\r\nequal",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "10, 9",
+      "setup": "javac Modulus.java",
+      "run": "java Modulus",
+      "input": "10\r\n9",
+      "output": "even\r\nodd\r\ngreater",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}

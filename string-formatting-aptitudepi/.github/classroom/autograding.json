@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "javac StringFormatting.java",
+      "run": "java StringFormatting",
+      "input": "",
+      "output": "The total price is $21.70\r\n      19\r\n-37         \r\nMy favorite book is \"Percy Jackson\"\r\nHello\r\nGoodbye",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}

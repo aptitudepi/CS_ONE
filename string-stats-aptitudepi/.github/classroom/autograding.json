@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "input1.txt",
+      "setup": "javac StringStats.java",
+      "run": "java StringStats && echo \"Displaying contents of file\" && cat output.txt",
+      "input": "input1.txt",
+      "output": "Displaying contents of file\r\nShortest word: cat\r\nLongest word: barbecue\r\nAverage word length: 5.167\r\nAlphabetically first word: apple\r\nAlphabetically last word: fire",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "input2.txt",
+      "setup": "javac StringStats.java",
+      "run": "java StringStats && echo \"Displaying contents of file\" &&  cat output.txt",
+      "input": "input2.txt",
+      "output": "Displaying contents of file\r\nShortest word: snow\r\nLongest word: ornament\r\nAverage word length: 5.600\r\nAlphabetically first word: ornament\r\nAlphabetically last word: tree",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "input3.txt",
+      "setup": "javac StringStats.java",
+      "run": "java StringStats && echo \"Displaying contents of file\" &&  cat output.txt",
+      "input": "input3.txt",
+      "output": "Displaying contents of file\r\nShortest word: ten\r\nLongest word: eight\r\nAverage word length: 3.909\r\nAlphabetically first word: eight\r\nAlphabetically last word: zero",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "input4.txt",
+      "setup": "javac StringStats.java",
+      "run": "java StringStats && echo \"Displaying contents of file\" &&  cat output.txt",
+      "input": "input4.txt",
+      "output": "Displaying contents of file\r\nShortest word: hello\r\nLongest word: hello\r\nAverage word length: 5.000\r\nAlphabetically first word: hello\r\nAlphabetically last word: hello",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}

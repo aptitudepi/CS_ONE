@@ -1,0 +1,144 @@
+{
+  "tests": [
+    {
+      "name": "Error01",
+      "setup": "javac Error01.java",
+      "run": "java Error01",
+      "input": "",
+      "output": "7.5",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Error02",
+      "setup": "javac Error02.java",
+      "run": "java Error02",
+      "input": "Will Smith",
+      "output": "Enter your full name: Will",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Error03",
+      "setup": "javac Error03.java",
+      "run": "java Error03",
+      "input": "7",
+      "output": "7",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Error04",
+      "setup": "javac Error04.java",
+      "run": "java Error04",
+      "input": "7",
+      "output": "Your age is 7",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Error05",
+      "setup": "javac Error05.java",
+      "run": "java Error05",
+      "input": "4\r\n3.00",
+      "output": "The total cost of all the apples is 12.0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Error06",
+      "setup": "javac Error06.java",
+      "run": "java Error06",
+      "input": "",
+      "output": "^[0-9\\.]+$",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Error07",
+      "setup": "javac Error07.java",
+      "run": "java Error07",
+      "input": "",
+      "output": "Look closely",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Error08",
+      "setup": "javac Error08.java",
+      "run": "java Error08",
+      "input": "3\r\n2.50",
+      "output": "The total cost is 7.5",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Error10",
+      "setup": "javac Error10.java",
+      "run": "java Error10",
+      "input": "Will",
+      "output": "Enter your first name: W",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Error09",
+      "setup": "javac Error09.java",
+      "run": "java Error09",
+      "input": "Will Smith",
+      "output": "Will",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Error11",
+      "setup": "javac Error11.java",
+      "run": "java Error11",
+      "input": "",
+      "output": "Will\r\n2.5",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Error12",
+      "setup": "javac Error12.java",
+      "run": "java Error12",
+      "input": "Will",
+      "output": "Your name is       Will",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Error13",
+      "setup": "javac Error13.java",
+      "run": "java Error13",
+      "input": "Will",
+      "output": "Your name is       Will",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Error14",
+      "setup": "javac Error14.java",
+      "run": "java Error14",
+      "input": "",
+      "output": "20.3333",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}

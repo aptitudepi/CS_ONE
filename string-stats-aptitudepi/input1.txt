@@ -1,0 +1,6 @@
+cat
+fire
+dog
+apple
+barbecue
+elephant

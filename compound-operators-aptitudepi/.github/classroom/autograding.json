@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "input 3",
+      "setup": "javac CompoundOperators.java",
+      "run": "java CompoundOperators",
+      "input": "3",
+      "output": "42\r\n63\r\n9\r\n6\r\n5\r\n6",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "input 7",
+      "setup": "javac CompoundOperators.java",
+      "run": "java CompoundOperators",
+      "input": "7",
+      "output": "98\r\n119\r\n17\r\n14\r\n13\r\n14",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}

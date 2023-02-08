@@ -1,0 +1,144 @@
+{
+  "tests": [
+    {
+      "name": "100",
+      "setup": "javac Grades.java",
+      "run": "java Grades",
+      "input": "100",
+      "output": "Letter grade: A",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "90",
+      "setup": "javac Grades.java",
+      "run": "java Grades",
+      "input": "90",
+      "output": "Letter grade: A",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "80",
+      "setup": "javac Grades.java",
+      "run": "java Grades",
+      "input": "80",
+      "output": "Letter grade: B",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "75",
+      "setup": "javac Grades.java",
+      "run": "java Grades",
+      "input": "75",
+      "output": "Letter grade: C",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "70",
+      "setup": "javac Grades.java",
+      "run": "java Grades",
+      "input": "70",
+      "output": "Letter grade: D",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "60",
+      "setup": "javac Grades.java",
+      "run": "java Grades",
+      "input": "60",
+      "output": "Letter grade: F",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "0",
+      "setup": "javac Grades.java",
+      "run": "java Grades",
+      "input": "0",
+      "output": "Letter grade: F",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "< 0",
+      "setup": "javac Grades.java",
+      "run": "java Grades",
+      "input": "-5",
+      "output": "The number grade cannot be negative.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "> 100",
+      "setup": "javac Grades.java",
+      "run": "java Grades",
+      "input": "105",
+      "output": "The number grade cannot be greater than 100.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "95",
+      "setup": "javac Grades.java",
+      "run": "java Grades",
+      "input": "95",
+      "output": "Letter grade: A",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "89",
+      "setup": "javac Grades.java",
+      "run": "java Grades",
+      "input": "89",
+      "output": "Letter grade: B",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "79",
+      "setup": "javac Grades.java",
+      "run": "java Grades",
+      "input": "79",
+      "output": "Letter grade: C",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "74",
+      "setup": "javac Grades.java",
+      "run": "java Grades",
+      "input": "74",
+      "output": "Letter grade: D",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "69",
+      "setup": "javac Grades.java",
+      "run": "java Grades",
+      "input": "69",
+      "output": "Letter grade: F",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}

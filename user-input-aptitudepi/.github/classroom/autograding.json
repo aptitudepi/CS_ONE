@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "javac UserInput.java",
+      "run": "java UserInput",
+      "input": "Joe Bob\r\n16",
+      "output": "Hello Joe Bob, you will be 46 in 30 years.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test 2",
+      "setup": "javac UserInput.java",
+      "run": "java UserInput",
+      "input": "Will\r\n22",
+      "output": "Hello Will, you will be 52 in 30 years.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}

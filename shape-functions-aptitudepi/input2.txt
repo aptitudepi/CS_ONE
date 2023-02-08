@@ -1,0 +1,10 @@
+9
+rectangle, 2.8, 3.5
+square, 5.5
+triangle, 7.8, 4.3
+circle, 2.9
+circle, 6.7
+triangle, 5.5, 8.2
+rectangle, 7.2, 3.8
+square, 1.8
+circle, 7.2

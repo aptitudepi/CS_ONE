@@ -1,0 +1,24 @@
+{
+  "tests": [
+   { 
+      "name": "input1.txt",
+      "setup": "javac ShapeFunctions.java",
+      "run": "java ShapeFunctions",
+      "input": "input1.txt",
+      "output": "triangle: 36.60\r\ncircle: 88.25\r\nrectangle: 43.16\r\nsquare: 19.36\r\ncircle: 38.48\r\nrectangle: 36.27\r\nsquare: 65.61\r\ntriangle: 13.50",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    { 
+      "name": "input2.txt",
+      "setup": "javac ShapeFunctions.java",
+      "run": "java ShapeFunctions",
+      "input": "input2.txt",
+      "output": "rectangle: 9.80\r\nsquare: 30.25\r\ntriangle: 16.77\r\ncircle: 26.42\r\ncircle: 141.03\r\ntriangle: 22.55\r\nrectangle: 27.36\r\nsquare: 3.24\r\ncircle: 162.86",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}

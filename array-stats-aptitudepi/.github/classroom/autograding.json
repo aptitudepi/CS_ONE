@@ -1,0 +1,84 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "javac Stats.java",
+      "run": "java Stats",
+      "input": "5\r\n2\r\n7\r\n6\r\n8\r\n10",
+      "output": "Min: 2\r\nMax: 10\r\nSum: 33\r\nAverage: 6.600",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test 2",
+      "setup": "javac Stats.java",
+      "run": "java Stats",
+      "input": "7\r\n10\r\n10\r\n10\r\n10\r\n10\r\n10\r\n10",
+      "output": "Min: 10\r\nMax: 10\r\nSum: 70\r\nAverage: 10.000",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test 3",
+      "setup": "javac Stats.java",
+      "run": "java Stats",
+      "input": "1\r\n19",
+      "output": "Min: 19\r\nMax: 19\r\nSum: 19\r\nAverage: 19.000",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test 4",
+      "setup": "javac Stats.java",
+      "run": "java Stats",
+      "input": "5\r\n-7\r\n12\r\n0\r\n-12\r\n19",
+      "output": "Min: -12\r\nMax: 19\r\nSum: 12\r\nAverage: 2.400",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test 5",
+      "setup": "javac Stats.java",
+      "run": "java Stats",
+      "input": "5\r\n-7\r\n-12\r\n-5\r\n-12\r\n-19",
+      "output": "Min: -19\r\nMax: -5\r\nSum: -55\r\nAverage: -11.000",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test 6",
+      "setup": "javac Stats.java",
+      "run": "java Stats",
+      "input": "5\r\n101\r\n202\r\n303\r\n404\r\n505",
+      "output": "Min: 101\r\nMax: 505\r\nSum: 1515\r\nAverage: 303.000",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test 7",
+      "setup": "javac Stats.java",
+      "run": "java Stats",
+      "input": "1\r\n2147483647",
+      "output": "Min: 2147483647\r\nMax: 2147483647\r\nSum: 2147483647\r\nAverage: 2147483647.000",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test 8",
+      "setup": "javac Stats.java",
+      "run": "java Stats",
+      "input": "1\r\n-2147483648",
+      "output": "Min: -2147483648\r\nMax: -2147483648\r\nSum: -2147483648\r\nAverage: -2147483648.000",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}

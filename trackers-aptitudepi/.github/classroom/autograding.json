@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "javac Trackers.java",
+      "run": "java Trackers",
+      "input": "50\r\n12\r\n74\r\n23\r\n64\r\n5\r\n7\r\n16",
+      "output": "Number of odd numbers: 3\r\nNumber of numbers greater than 20: 4\r\nNumber of odd numbers greater than 20: 1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test 2",
+      "setup": "javac Trackers.java",
+      "run": "java Trackers",
+      "input": "1\r\n1\r\n1\r\n1\r\n1\r\n1\r\n1\r\n1",
+      "output": "Number of odd numbers: 8\r\nNumber of numbers greater than 20: 0\r\nNumber of odd numbers greater than 20: 0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test 3",
+      "setup": "javac Trackers.java",
+      "run": "java Trackers",
+      "input": "20\r\n20\r\n20\r\n20\r\n20\r\n20\r\n20\r\n20",
+      "output": "Number of odd numbers: 0\r\nNumber of numbers greater than 20: 0\r\nNumber of odd numbers greater than 20: 0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test 4",
+      "setup": "javac Trackers.java",
+      "run": "java Trackers",
+      "input": "25\r\n25\r\n25\r\n25\r\n25\r\n25\r\n25\r\n25",
+      "output": "Number of odd numbers: 8\r\nNumber of numbers greater than 20: 8\r\nNumber of odd numbers greater than 20: 8",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test 5",
+      "setup": "javac Trackers.java",
+      "run": "java Trackers",
+      "input": "30\r\n30\r\n30\r\n30\r\n30\r\n30\r\n30\r\n30",
+      "output": "Number of odd numbers: 0\r\nNumber of numbers greater than 20: 8\r\nNumber of odd numbers greater than 20: 0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}

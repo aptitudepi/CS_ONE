@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "input1",
+      "setup": "javac FileCSV.java",
+      "run": "java FileCSV",
+      "input": "input1.csv",
+      "output": "Phil Davis, \\$307\\.50\nBob Wallace, \\$500\\.00$",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "input2",
+      "setup": "javac FileCSV.java",
+      "run": "java FileCSV",
+      "input": "input2.csv",
+      "output": "Kathryn Brown, \\$343\\.00\nSkylar Norton, \\$432\\.00$",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}

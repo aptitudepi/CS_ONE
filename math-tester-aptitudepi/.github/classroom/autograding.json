@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "javac MathTester.java",
+      "run": "java MathTester",
+      "input": "-7\r\n3.14\r\n2\r\n7\r\n3\r\n4",
+      "output": "7\r\n4.0\r\n3.0\r\n3\r\nMax: 7\r\nMin: 2\r\n81.0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test 2",
+      "setup": "javac MathTester.java",
+      "run": "java MathTester",
+      "input": "12\r\n9.87\r\n5\r\n5\r\n5\r\n3",
+      "output": "12\r\n10.0\r\n9.0\r\n10\r\nMax: 5\r\nMin: 5\r\n125.0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}

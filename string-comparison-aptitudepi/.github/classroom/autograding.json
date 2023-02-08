@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "cat, dog, mouse",
+      "setup": "javac StringComparison.java",
+      "run": "java StringComparison",
+      "input": "cat\r\ndog\r\nmouse",
+      "output": "cat, dog, mouse",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "cat, catatonic, catastrophe",
+      "setup": "javac StringComparison.java",
+      "run": "java StringComparison",
+      "input": "cat\r\ncatatonic\r\ncatastrophe",
+      "output": "cat, catastrophe, catatonic",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "cat, dog, cat",
+      "setup": "javac StringComparison.java",
+      "run": "java StringComparison",
+      "input": "cat\r\ndog\r\ncat",
+      "output": "cat, cat, dog",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "horse, lizard, donkey",
+      "setup": "javac StringComparison.java",
+      "run": "java StringComparison",
+      "input": "horse\r\nlizard\r\ndonkey",
+      "output": "donkey, horse, lizard",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "cat, cat, cat",
+      "setup": "javac StringComparison.java",
+      "run": "java StringComparison",
+      "input": "cat\r\ncat\r\ncat",
+      "output": "cat, cat, cat",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}

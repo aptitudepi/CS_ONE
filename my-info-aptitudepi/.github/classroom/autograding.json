@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "javac MyInfo.java",
+      "run": "java MyInfo",
+      "input": "",
+      "output": "^[0-9]+\\n[a-zA-Z]{1}\\n[0-9]+\\n[0-9]+\\.[0-9]+\\n(true|false)$",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}

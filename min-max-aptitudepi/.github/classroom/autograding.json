@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "1,2,3,4,5",
+      "setup": "javac MinMax.java",
+      "run": "java MinMax",
+      "input": "1\r\n2\r\n3\r\n4\r\n5",
+      "output": "The min is 1\r\nThe max is 5",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "5,4,3,2,1",
+      "setup": "javac MinMax.java",
+      "run": "java MinMax",
+      "input": "5\r\n4\r\n3\r\n2\r\n1",
+      "output": "The min is 1\r\nThe max is 5",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "40, 84, 32, 11, 65",
+      "setup": "javac MinMax.java",
+      "run": "java MinMax",
+      "input": "40\r\n84\r\n32\r\n11\r\n65",
+      "output": "The min is 11\r\nThe max is 84",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "10, 10, 10, 10, 10",
+      "setup": "javac MinMax.java",
+      "run": "java MinMax",
+      "input": "10\r\n10\r\n10\r\n10\r\n10",
+      "output": "The min is 10\r\nThe max is 10",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "99, 99, 99, 99, 99",
+      "setup": "javac MinMax.java",
+      "run": "java MinMax",
+      "input": "99\r\n99\r\n99\r\n99\r\n99",
+      "output": "The min is 99\r\nThe max is 99",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "0, 0, 0, 0, 0",
+      "setup": "javac MinMax.java",
+      "run": "java MinMax",
+      "input": "0\r\n0\r\n0\r\n0\r\n0",
+      "output": "The min is 0\r\nThe max is 0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "4",
+      "setup": "javac WhileLoops.java",
+      "run": "java WhileLoops",
+      "input": "4",
+      "output": "1\r\n4\r\n9\r\n16\r\n\r\n10\r\n24",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "0",
+      "setup": "javac WhileLoops.java",
+      "run": "java WhileLoops",
+      "input": "0",
+      "output": "\r\n0\r\n1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "5",
+      "setup": "javac WhileLoops.java",
+      "run": "java WhileLoops",
+      "input": "5",
+      "output": "1\r\n4\r\n9\r\n16\r\n25\r\n\r\n15\r\n120",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}

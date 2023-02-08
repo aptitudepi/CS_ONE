@@ -1,0 +1,24 @@
+{
+  "tests": [
+   { 
+      "name": "input1.txt",
+      "setup": "javac FileIOExam.java",
+      "run": "java FileIOExam && echo \"Displaying contents of file\" && cat output.txt",
+      "input": "input1.txt",
+      "output": "Displaying contents of file\r\nThumb drives: $131.25\r\n23 foot cable: $260.00\r\nFolders with brads: $9.00\r\nSpiral notebooks: $50.00\r\nPaper clips: $66.00\r\nSharpie pens: $200.00\r\nBlack pens: $175.00\r\nTotal cost: $891.25",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    { 
+      "name": "input2.txt",
+      "setup": "javac FileIOExam.java",
+      "run": "java FileIOExam && echo \"Displaying contents of file\" && cat output.txt",
+      "input": "input2.txt",
+      "output": "Displaying contents of file\r\n23 foot cable: $260.00\r\nThumb drives: $168.00\r\nSpiral notebooks: $11.25\r\nPaper clips: $18.00\r\nSharpie pens: $48.00\r\nBlack pens: $42.00\r\nFolders with brads: $1.50\r\nTotal cost: $548.75",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}

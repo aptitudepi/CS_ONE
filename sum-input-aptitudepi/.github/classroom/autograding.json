@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "1, 4, 7, 2, quit",
+      "setup": "javac SumInput.java",
+      "run": "java SumInput",
+      "input": "1\r\n4\r\n7\r\n2\r\nquit",
+      "output": "The sum is 14$",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "6, 5, 4, nothing",
+      "setup": "javac SumInput.java",
+      "run": "java SumInput",
+      "input": "6\r\n5\r\n4\r\n\r\n",
+      "output": "The sum is 15$",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "7, 7, 7, quit",
+      "setup": "javac SumInput.java",
+      "run": "java SumInput",
+      "input": "7\r\n7\r\n7\r\nquit",
+      "output": "The sum is 21$",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}

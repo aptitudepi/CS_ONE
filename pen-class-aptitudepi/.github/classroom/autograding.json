@@ -1,0 +1,23 @@
+{
+  "tests": [
+    {
+      "name": "Maroon Pilot, Blue Papermate",
+      "setup": "javac PenTester.java",
+      "run": "java PenTester",
+      "input": "Pilot\nMaroon\n0.5\nPapermate\nBlue\n0.7",
+      "output": "Maroon Pilot pen\nThis is where the fun begins\nI've got a bad feeling\nOOOH\nBlue Papermate pen\nThis is getting out of hand. Now there are two of \nOOOH$",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Blue Papermate, Maroon Pilot",
+      "setup": "javac PenTester.java",
+      "run": "java PenTester",
+      "input": "Papermate\nBlue\n0.7\nPilot\nMaroon\n0.5",
+      "output": "Blue Papermate pen\nThis is where the fun begins\nI've got a bad feeling\nOOOH\nMaroon Pilot pen\nThis is getting out of hand. Now there are two of \nOOOH",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}

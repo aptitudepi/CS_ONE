@@ -1,0 +1,21 @@
+23 foot cable
+10
+26.00
+Thumb drives
+32
+5.25
+Spiral notebooks
+9
+1.25
+Paper clips
+15
+1.20
+Sharpie pens
+12
+4.00
+Black pens
+12
+3.50
+Folders with brads
+15
+0.10

@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "1 and 10",
+      "setup": "javac MathRandom.java",
+      "run": "java MathRandom",
+      "input": "1\r\n10",
+      "output": "[1-9]{1}$",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "10 and 1",
+      "setup": "javac MathRandom.java",
+      "run": "java MathRandom",
+      "input": "10\r\n1",
+      "output": "[1-9]{1}$",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "5 and 6",
+      "setup": "javac MathRandom.java",
+      "run": "java MathRandom",
+      "input": "5\r\n6",
+      "output": "5{1}$",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "1 and 0",
+      "setup": "javac MathRandom.java",
+      "run": "java MathRandom",
+      "input": "1\r\n0",
+      "output": "0{1}$",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
